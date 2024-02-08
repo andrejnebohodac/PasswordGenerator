@@ -1,0 +1,96 @@
+.dotgothic16-regular {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    color: rgb(0, 255, 4);
+    font-family: 'DotGothic16', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+button {
+    font-size: 28px;
+    font-family: 'DotGothic16', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: rgb(0, 255, 4);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgba(0, 255, 4, 0.69);
+    color: rgba(0, 0, 0, 0.773);
+}
+
+#container {
+    background-color: rgba(11, 54, 5, 0.771);
+    width: 400px;
+    margin: 25vh auto;
+    border: rgba(0, 255, 4, 0.771) 6px solid;
+    border-radius: 4px;
+    padding: 30px 20px;
+}
+
+#password {
+    width: 200px;
+    padding: 10px 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: rgba(19, 97, 8, 0.487);
+    border: rgba(0, 255, 4, 0.771) 3px solid;
+    border-radius: 4px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 560px) {
+
+    #container {
+        width: 300px;
+    }
+
+    button {
+        font-size: 25px;
+    }
+
+    #password {
+        padding: 10px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 410px) {
+
+    #container {
+        width: 250px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    #password {
+        padding: 10px 20px;
+    }
+
+}
+
+
+
+
